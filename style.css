@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+.item {
+    background-color: rgba(255, 0, 0, 0.253);
+    flex-grow: 1;
+    height:100px;
+}
+
+.item + .item {
+    margin-left: 2%;
+}
+
+body {
+    background-color: rgb(20, 139, 133);
+}
+

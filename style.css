@@ -1,18 +1,33 @@
 .container {
-    display: flex;
-}
-
-.item {
-    background-color: rgba(255, 0, 0, 0.253);
-    flex-grow: 1;
-    height:100px;
-}
-
-.item + .item {
-    margin-left: 2%;
-}
-
-body {
-    background-color: rgb(20, 139, 133);
-}
-
+  display: flex;
+  }
+  .item {
+  background-color: rgba(255, 0, 0, 0.253);
+  flex-grow: 1;
+  height:110px;
+  }
+  .item + .item {
+  margin-left: 1%;
+  }
+  body {
+  background-color: rgb(20, 139, 133);
+  }
+  .meny {
+  background-color: rgba(82, 80, 80, 0.747);
+  overflow: hidden;
+  }
+  .meny a {
+  float: left;
+  color: #9072c0;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  }
+  .meny a:hover {
+  background-color: rgb(199, 223, 196);
+  color: rgb(43, 5, 5);
+  font-size: 35px;
+  }
+  h1 {
+  font-size: 50px;
+  }

@@ -1,72 +1,73 @@
 .container {
-  display: flex;
+  display: flex; /* Gör så att boxarna dras ut och inte hamnar över varandra */
   }
   .item {
-  background-color: rgb(0, 0, 0);
-  flex-grow: 1;
-  height:180px;
+  background-color: rgb(0, 0, 0); /* Ändrar bakgrundsfärgen i boxarna */
+  height:180px; /* Ändrar boxarnas höjd */
+  width: 240px; /* Ändrar bredden på boxarna */
+  flex-grow: 1; /* flyttar boxarna mer ifrån varandra*/
   
   }
   .item + .item {
-  margin-left: 14%;
+   margin-left: 14%; /* Itemen (olika boxar) ska ha 14% mellanrum ifrån varandra*/
   }
 
-  .box {
-    background-color: rgb(145, 139, 139);
-    height: 110px;
-    font-size: 50px;
+  .box { /* Allt som jag har döpt till box kommer att ändra färg, höjd och text storlek enligt mina mått under*/
+    background-color: rgb(145, 139, 139); /* Byter färg på boxar */
+    height: 110px; /* Ändrar höjden för boxar */
+    font-size: 50px; /* Ändrar sorleken på texten i boxarna */
   }
 
   body {
-  background-color: rgb(64, 66, 66);
+  background-color: rgb(64, 66, 66); /* Byter färg på sidans bakrund */
   }
   .meny {
-  background-color: rgba(82, 80, 80, 0.747);
-  overflow: hidden;
+  background-color: rgba(82, 80, 80, 0.747); /* Byter färg på meny bakgrunden */
+  overflow: hidden; /* Menyn ska ligga över bakgrunden */
   }
   .meny a { 
-  float: left; /* */
-  color: #9072c0;
-  padding: 25px 100px;
-  text-decoration: none;
-  font-size: 30px; 
+  float: left; /* Flytar allt i menyn lite åt vänster eftersom none blir för mycket åt höger */
+   color: #9072c0; /* Ändrar färgen på texten i boxarna */
+  padding: 25px 100px; /* Storleken på boxarna / en slaks ram */
+  text-decoration: none; /* Tar bort alla extra saker till texten */
+  font-size: 30px; /* Väljer hur stor texten skall vara */
   }
-  /* Ändrar färg och storlek på menyn och boxarna i menyn när man "hovrar" på menyn */
+  /* Ändrar färg på menyn och boxarna när man "hovrar" på menyn */
   .meny a:hover {
   background-color: rgb(199, 223, 196);
   color: rgb(43, 5, 5);
   }
-  /* Ändrar mina h1 tagar, ändrar storleken på exten och placerar texten vänster. */
+  /* Ändrar mina h1 tagar, ändrar storleken på texten och placerar texten vänster. */
   h1 {   
   font-size: 50px; 
   text-align:left;
   }
 /* Justerar bilderna i boxarna, deras höjd och bredd */
 img {
-  height: 180px;
-  width: 305px;
+  height: 180px; /* Ändrar bilders höjd */
+  width: 305px; /* Ändrar bilders bredd */
 }
  
 /* Footer */
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(82, 73, 73);
-  color: rgb(3, 3, 3);
-  text-align: center;
+  position: fixed; /* Standard inställningar för en footer exempel höjd*/
+  left: 0; /* Beskriver att footern ska vara i mitten av skärmen*/ 
+  bottom: 0;  /* Beskriver vart jag vill ha footern och sätter den till 0 eftersom jag vill ha den längst ner */
+  width: 100%; /* Footerns bredd i % förhållande till sidan */
+  background-color: rgb(82, 73, 73); /* Ändrar bakrundsfärg på footern*/
+  color: rgb(3, 3, 3); /* Ändrar färgen på texten i footern */
+  text-align: center; /* Beskriver vart texten ska vara och min är centrerad*/
 }
 
 /* En annan footer för produktsidan */
 .footer1 {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(68, 68, 68);
-  text-align: center;
+  position: fixed; /* Standard inställningar för en footer exempel höjd*/
+  left: 0; /* Beskriver att footern ska vara i mitten av skärmen*/
+  bottom: 0; /* Beskriver vart jag vill ha footern och sätter den till 0 eftersom jag vill ha den längst ner */
+  width: 100%; /* Footerns bredd i % förhållande till sidan */
+  background-color: rgb(0, 0, 0); /* Ändrar bakrundsfärg på footern*/
+  color: rgb(68, 68, 68); /* Ändrar färgen på texten i footern */
+  text-align: center; /* Beskriver vart texten ska vara och min är centrerad*/
 
 }
 

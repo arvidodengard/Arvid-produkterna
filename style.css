@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  
   }
   .item {
   background-color: rgb(0, 0, 0);
@@ -13,16 +12,9 @@
   }
 
   .box {
-    background-color: rgb(114, 107, 107);
+    background-color: rgb(145, 139, 139);
     height: 110px;
     font-size: 50px;
-  }
-
-  .kassa {
-    height: 110px;
-    width: 150px;
-    font-size: 40;
-    background-color: rgb(6, 139, 255);
   }
 
   body {
@@ -32,23 +24,24 @@
   background-color: rgba(82, 80, 80, 0.747);
   overflow: hidden;
   }
-  .meny a {
-  float: left;
+  .meny a { 
+  float: left; /* */
   color: #9072c0;
-  padding: 25px 25px;
+  padding: 25px 100px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 30px; 
   }
+  /* Ändrar färg och storlek på menyn och boxarna i menyn när man "hovrar" på menyn */
   .meny a:hover {
   background-color: rgb(199, 223, 196);
   color: rgb(43, 5, 5);
-  font-size: 35px;
   }
-  h1 {
-  font-size: 50px;
-  text-align:center;
+  /* Ändrar mina h1 tagar, ändrar storleken på exten och placerar texten vänster. */
+  h1 {   
+  font-size: 50px; 
+  text-align:left;
   }
-
+/* Justerar bilderna i boxarna, deras höjd och bredd */
 img {
   height: 180px;
   width: 305px;
